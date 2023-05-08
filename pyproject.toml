@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "loudred"
+version = "0.1.0"
+description = "Noise generation library for denoising autoencoders"
+authors = ["lowem1 <malexanderlowe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "1.4.2"
+pandas = "2.0.1"
+numpy = "1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,13 @@
+{
+  "name": "Loudred",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dev",
+  "workspaceFolder": "/workspaces/${localWorkSpaceFolderBasename}",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "vscode-icons-team.vscode-icons",
+    "wayou.vscode-todo-highlight",
+    "timonwong.shellcheck"
+  ]
+}
