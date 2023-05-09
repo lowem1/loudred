@@ -1,4 +1,0 @@
-poetry==1.4.2
-pandas==2.0.1
-numpy==1.24.3
-
