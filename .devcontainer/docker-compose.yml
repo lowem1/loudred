@@ -1,11 +1,9 @@
 version: '3.8'
-
 services:
   dev:
     build:
       context: .
-      dockerfile: .devcontainer/Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - ../..:/workspaces:cached
-      - ~/.aws/:/home/vscode/.aws/
     command: sleep infinity
