@@ -1,4 +1,4 @@
-# Loudred! Consistency for Denoising AutoEncoders
+# Soundpoof! Consistency for Denoising AutoEncoders
 
 ![](docs/Loudred.jpeg?raw=true "Title")
 

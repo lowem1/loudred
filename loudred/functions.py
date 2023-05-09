@@ -57,6 +57,7 @@ def proximity_error(s: str, error_rate: float = 0.1) -> str:
         rand_idx = np.random.randint(len(proximity_errs))
         return proximity_errs[rand_idx]
 
+    error_rate = error_rate if error_rate else 0
     str_builder: List[str] = []
     str_builder = list(s)
     proba: int = round(len(s) * error_rate)
